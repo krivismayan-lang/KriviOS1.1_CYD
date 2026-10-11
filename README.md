@@ -1,7 +1,7 @@
 # KRIVI OS v1.6.0 — touch micro-OS for the Cheap Yellow Display (ESP32-2432S028)
 
 A standalone, landscape (320×240) touch operating system with a 5-second diagnostic boot log, a high-density **4×3 grid launcher** (12 apps per page, 6 pages) with **71 applications**, backed by a microSD card that the dynamic loader pages manifests, icons and assets from.
-
+Made By 11 year old😏👌
 **v1.6.0 highlights:** all 19 roadmap placeholders are now **fully implemented** — CHIP-8 interpreter (loads `.ch8`, built-in demo), Space Invaders, Asteroids, Morse keyer (decodes your taps), Voice Pitch tracker (autocorrelation + tuner needle), Ultrasonic range (HC-SR04), World Clock, Currency converter (`/sys/rates.json`), Unit converter, Pi Shell terminal, SSH action shortcuts, live htop monitor, Pi safe shutdown/reboot, Matrix rain, Starfield, System Settings (brightness/volume/Wi-Fi), NVS flash editor, Desk Clock, and Noise Floor logger. The Pi bridge gained `CMD`, `PS` and `POWER` handlers (shell on by default; `--no-shell` disables).
 
 **v1.5.0 highlights:** the desktop is now a **4×3 high-density grid** (12 cells/page, 6 themed pages). 19 roadmap apps were added as **working placeholders** (each shows its planned feature and is being filled in over coming updates): CHIP-8, Space Invaders, Asteroids, Morse Keyer, Voice Pitch, Ultrasonic Range, World Clock, Currency + Unit converters, Pi Shell Keyboard, SSH Shortcuts, htop Monitor, Pi Safe Shutdown, Matrix Rain, Starfield, System Settings, NVS Editor, Desk Clock, Noise Floor Log. All existing apps were kept.
@@ -52,7 +52,7 @@ KRIVI_OS/
 ```
 
 ---
-
+Usually go to the sd card folder in the zip file provided and copy the contents inside and paste it in a sd card.
 ## 1. Arduino IDE setup (one time)
 
 1. **Board package** — *Tools → Board → Boards Manager*, search **esp32 by Espressif Systems**, install **version 2.0.17**.
